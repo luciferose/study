@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="" />
+    <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test3/___init___.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Study$gen_fibs.coverage" NAME="gen_fibs Coverage Results" MODIFIED="1547106715654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$test.coverage" NAME="test Coverage Results" MODIFIED="1547115094511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$search_for_vowels.coverage" NAME="search_for_vowels Coverage Results" MODIFIED="1552893654785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test3" />
     <SUITE FILE_PATH="coverage/Study$download.coverage" NAME="download Coverage Results" MODIFIED="1548918181662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$download_cat.coverage" NAME="download_cat Coverage Results" MODIFIED="1547532441063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$countlist.coverage" NAME="countlist Coverage Results" MODIFIED="1547101036383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -55,7 +59,7 @@
     <SUITE FILE_PATH="coverage/Study$toplevel0.coverage" NAME="toplevel0 Coverage Results" MODIFIED="1545296744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$gui6b.coverage" NAME="gui6b Coverage Results" MODIFIED="1545292185145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$dlg_custom.coverage" NAME="dlg-custom Coverage Results" MODIFIED="1545369721434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$translation.coverage" NAME="translation Coverage Results" MODIFIED="1552465805932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$translation.coverage" NAME="translation Coverage Results" MODIFIED="1552900194496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$gui3test.coverage" NAME="gui3test Coverage Results" MODIFIED="1545284879299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$class_fibs.coverage" NAME="class_fibs Coverage Results" MODIFIED="1547104886136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$setcolor.coverage" NAME="setcolor Coverage Results" MODIFIED="1545702979491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -86,14 +90,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/translation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="495">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test3/search_for_vowels.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -107,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test3/vowels.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -119,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test3/right_this_minute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="210">
               <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -161,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demoCheck.py" />
         <option value="$PROJECT_DIR$/config-label.py" />
         <option value="$PROJECT_DIR$/p6_5.py" />
         <option value="$PROJECT_DIR$/p6_6.py" />
@@ -212,6 +224,7 @@
         <option value="$PROJECT_DIR$/test3/beer.py" />
         <option value="$PROJECT_DIR$/test3/panic.py" />
         <option value="$PROJECT_DIR$/test3/vowels.py" />
+        <option value="$PROJECT_DIR$/test3/search_for_vowels.py" />
       </list>
     </option>
   </component>
@@ -226,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,11 +247,26 @@
               <item name="Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="test3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.vowels">
+  <component name="RunManager" selected="Python.translation">
     <configuration name="beer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,7 +347,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="right_this_minute" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="search_for_vowels" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,7 +360,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3/right_this_minute.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3/search_for_vowels.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vowels" />
         <item itemvalue="Python.translation" />
+        <item itemvalue="Python.search_for_vowels" />
+        <item itemvalue="Python.vowels" />
         <item itemvalue="Python.panic" />
         <item itemvalue="Python.beer" />
-        <item itemvalue="Python.right_this_minute" />
       </list>
     </recent_temporary>
   </component>
@@ -485,12 +514,15 @@
       <workItem from="1552438526663" duration="7614000" />
       <workItem from="1552464707194" duration="1106000" />
       <workItem from="1552466704937" duration="2369000" />
-      <workItem from="1552546101620" duration="841000" />
+      <workItem from="1552546101620" duration="5906000" />
+      <workItem from="1552605217230" duration="33000" />
+      <workItem from="1552633673466" duration="1401000" />
+      <workItem from="1552870698590" duration="9315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274286000" />
+    <option name="totallyTimeSpent" value="290100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,11 +534,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1177" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.28647497" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.29605964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5006878" side_tool="true" weight="0.24121405" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.92705005" weight="0.3408663" />
@@ -515,10 +548,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32862523" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956687" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106496" side_tool="true" weight="0.25800377" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31544256" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31544256" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49893504" weight="0.25800377" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -531,17 +564,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cat_1920_1080.jpg" />
-    <entry file="file://$PROJECT_DIR$/test/switch_save.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen_fibs.py" />
     <entry file="file://$PROJECT_DIR$/hash.py" />
     <entry file="file://$PROJECT_DIR$/testdownload/006XNEY7gy1fzm0dc0y3xj30qo0zke81.jpg" />
@@ -585,9 +607,6 @@
     <entry file="file://$PROJECT_DIR$/record.txt" />
     <entry file="file://$PROJECT_DIR$/switch_test.py" />
     <entry file="file://$PROJECT_DIR$/url_error.py" />
-    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/class_fibs.py" />
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/18" />
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/Resources">
@@ -622,15 +641,11 @@
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/test11.py" />
     <entry file="file://$PROJECT_DIR$/reboot.py" />
-    <entry file="file://$PROJECT_DIR$/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test3/___init___.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test3/panic.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -639,9 +654,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test3/vowels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test3/right_this_minute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="210">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -656,10 +678,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test3/vowels.py">
+    <entry file="file://$PROJECT_DIR$/test3/search_for_vowels.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
