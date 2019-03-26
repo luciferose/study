@@ -1,0 +1,2 @@
+<Request 'http://127.0.0.1:5000/search' [POST]> {'a'}
+<Request 'http://127.0.0.1:5000/search' [POST]> set()

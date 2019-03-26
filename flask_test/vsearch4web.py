@@ -4,6 +4,11 @@ from flask import render_template
 from flask import request
 
 app = Flask(__name__)
+
+def log_request(req: 'flask_request',res: str) -> None:
+    with open('vsearch.log', 'a') as log:
+        print(req, res, file=log)
+
 '''
 @app.route('/')
 def hello() -> str:
@@ -16,6 +21,7 @@ def do_search() -> 'html' :
     title = 'here are your results'
     #return str(search_for_letters(phrase,letters))
     results = str(search_for_letters(phrase,letters))
+    log_request(request,results)
     return render_template('results.html', the_phrase = phrase, the_letters=letters, the_tile=title, the_results=results)
 
 @app.route('/')
