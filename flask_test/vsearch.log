@@ -1,2 +1,3 @@
-<Request 'http://127.0.0.1:5000/search' [POST]> {'a'}
-<Request 'http://127.0.0.1:5000/search' [POST]> set()
+ImmutableMultiDict([('phrase', 'aeiou'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'i', 'u', 'a', 'e', 'o'}
+ImmutableMultiDict([('phrase', 'alfkjsd;ljfklasj'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36|{'a'}
+ImmutableMultiDict([('phrase', '1234567abcdefg'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15|{'e', 'a'}

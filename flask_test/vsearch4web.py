@@ -2,12 +2,13 @@ from flask import Flask
 from search4letters import search_for_letters
 from flask import render_template
 from flask import request
+from flask import escape
 
 app = Flask(__name__)
 
 def log_request(req: 'flask_request',res: str) -> None:
     with open('vsearch.log', 'a') as log:
-        print(req, res, file=log)
+        print(req.form, req.remote_addr, req.user_agent, res, file=log,sep='|')
 
 '''
 @app.route('/')
@@ -28,6 +29,17 @@ def do_search() -> 'html' :
 @app.route('/entry')
 def entry_page() -> 'html':
     return render_template('entry.html',the_title='welcome to search on teh web!')
+
+@app.route('/viewlog')
+def view_the_log() -> 'html':
+    contents=[]
+    with open('vsearch.log') as log:
+        for line in log:
+            contents.append([])
+            for item in line.split('|'):
+                contents[-1].append(escape(item))
+    titles=('form date', 'remote_addr', 'user_agent', 'results')
+    return render_template('viewlog.html', the_title='view log', the_row_titles=titles, the_data=contents)
 
 if __name__ == '__main__':
     app.run(debug=True)
