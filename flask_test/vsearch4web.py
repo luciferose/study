@@ -3,18 +3,34 @@ from search4letters import search_for_letters
 from flask import render_template
 from flask import request
 from flask import escape
+import mysql.connector
 
 app = Flask(__name__)
 
 def log_request(req: 'flask_request',res: str) -> None:
+    dbconfig = {'host': '127.0.0.1',
+                'user': 'vsearch',
+                'password': 'king_9999',
+                'database': 'vsearchlogDB'''}
+    conn = mysql.connector.connect(**dbconfig)
+    cursor = conn.cursor()
+    _SQL = '''insert into log (phrase, letters, ip, browser_string, results) values (%s, %s, %s, %s,%s)'''
+    cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, req.user_agent.browser, res,))
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+    '''
     with open('vsearch.log', 'a') as log:
         print(req.form, req.remote_addr, req.user_agent, res, file=log,sep='|')
+    '''
 
 '''
 @app.route('/')
 def hello() -> str:
     return  'hello world from Flask!'
 '''
+
 @app.route('/search', methods=['POST'])
 def do_search() -> 'html' :
     letters = request.form['letters']
