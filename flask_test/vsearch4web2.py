@@ -22,7 +22,7 @@ def do_search() -> 'html' :
 @app.route('/')
 @app.route('/entry')
 def entry_page() -> 'html':
-    return render_template('entry.html',the_title='welcome to search on teh web!')
+    return render_template('entry.html',the_title='welcome to search on the web!')
 
 @app.route('/viewlog')
 def view_the_log() -> 'html':

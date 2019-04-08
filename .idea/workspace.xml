@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/switch_back.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_test/quick_session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_test/vsearch4web2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_test/vsearch4web2.py" afterDir="false" />
     </list>
@@ -56,6 +56,7 @@
     <SUITE FILE_PATH="coverage/Study$entry3_modal.coverage" NAME="entry3-modal Coverage Results" MODIFIED="1545643580178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$panic.coverage" NAME="panic Coverage Results" MODIFIED="1552389600969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test3" />
     <SUITE FILE_PATH="coverage/Study$p6_5.coverage" NAME="p6_5 Coverage Results" MODIFIED="1546409970755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$quick_session.coverage" NAME="quick_session Coverage Results" MODIFIED="1554704471765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
     <SUITE FILE_PATH="coverage/Study$config_button.coverage" NAME="config-button Coverage Results" MODIFIED="1545295705983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$entry1.coverage" NAME="entry1 Coverage Results" MODIFIED="1545620396858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$config_label.coverage" NAME="config-label Coverage Results" MODIFIED="1545732123944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -66,7 +67,7 @@
     <SUITE FILE_PATH="coverage/Study$toplevel0.coverage" NAME="toplevel0 Coverage Results" MODIFIED="1545296744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$gui6b.coverage" NAME="gui6b Coverage Results" MODIFIED="1545292185145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$dlg_custom.coverage" NAME="dlg-custom Coverage Results" MODIFIED="1545369721434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$translation.coverage" NAME="translation Coverage Results" MODIFIED="1554268392957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$translation.coverage" NAME="translation Coverage Results" MODIFIED="1554705243414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$gui3test.coverage" NAME="gui3test Coverage Results" MODIFIED="1545284879299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$class_fibs.coverage" NAME="class_fibs Coverage Results" MODIFIED="1547104886136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$setcolor.coverage" NAME="setcolor Coverage Results" MODIFIED="1545702979491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -84,7 +85,7 @@
     <SUITE FILE_PATH="coverage/Study$max_factor.coverage" NAME="max_factor Coverage Results" MODIFIED="1546928777756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$quitter.coverage" NAME="quitter Coverage Results" MODIFIED="1545355096218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$diaologtable.coverage" NAME="diaologtable Coverage Results" MODIFIED="1545356127477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$vsearch4web2__1_.coverage" NAME="vsearch4web2 (1) Coverage Results" MODIFIED="1554188850767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
+    <SUITE FILE_PATH="coverage/Study$vsearch4web2__1_.coverage" NAME="vsearch4web2 (1) Coverage Results" MODIFIED="1554703932870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
     <SUITE FILE_PATH="coverage/Study$p6_7.coverage" NAME="p6_7 Coverage Results" MODIFIED="1546412701445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$c2f_f2c.coverage" NAME="c2f_f2c Coverage Results" MODIFIED="1547431281512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$gui1.coverage" NAME="gui1 Coverage Results" MODIFIED="1545186906485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -100,10 +101,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/translation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_test/vsearch4web2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -112,13 +125,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translation.py">
+        <entry file="file://$PROJECT_DIR$/flask_test/quick_session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_test/DBcm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -149,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mytime.py" />
         <option value="$PROJECT_DIR$/timer_test.py" />
         <option value="$PROJECT_DIR$/rectangle.py" />
         <option value="$PROJECT_DIR$/retangle.py" />
@@ -198,8 +216,9 @@
         <option value="$PROJECT_DIR$/flask_test/templates/DBcm_test.py" />
         <option value="$PROJECT_DIR$/flask_test/vsearch4web.py" />
         <option value="$PROJECT_DIR$/flask_test/templates/vsearch4web2.py" />
-        <option value="$PROJECT_DIR$/flask_test/vsearch4web2.py" />
         <option value="$PROJECT_DIR$/test/switch_back.py" />
+        <option value="$PROJECT_DIR$/flask_test/vsearch4web2.py" />
+        <option value="$PROJECT_DIR$/flask_test/quick_session.py" />
       </list>
     </option>
   </component>
@@ -226,11 +245,6 @@
               <item name="Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
               <item name="flask_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,6 +308,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quick_session" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_test/quick_session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,28 +344,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="vsearch4web" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_test/vsearch4web.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,10 +399,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.translation" />
+        <item itemvalue="Python.quick_session" />
         <item itemvalue="Python.vsearch4web2 (1)" />
         <item itemvalue="Python.vsearch4web2" />
         <item itemvalue="Python.DBcm_test" />
-        <item itemvalue="Python.vsearch4web" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +518,7 @@
       <workItem from="1554110981395" duration="614000" />
       <workItem from="1554166532970" duration="7015000" />
       <workItem from="1554268382702" duration="3830000" />
-      <workItem from="1554685497029" duration="707000" />
+      <workItem from="1554685497029" duration="6119000" />
     </task>
     <task id="LOCAL-00001" summary="add search_for_vowels.py">
       <created>1552958597748</created>
@@ -576,11 +590,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554188347095</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add test/switch_save.py">
+      <created>1554686671535</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554686671535</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353489000" />
+    <option name="totallyTimeSpent" value="358901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,9 +614,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.3567625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.3567625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5006878" side_tool="true" weight="0.24121405" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -671,10 +691,10 @@
     <MESSAGE value="add viewlog.html" />
     <MESSAGE value="重写 vsearch4web.py 将log_request函数由文本存储改写为本地mysql数据库存储" />
     <MESSAGE value="add vsearch4web2.py (使用上下文管理器管理数据库连接)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vsearch4web2.py (使用上下文管理器管理数据库连接)" />
+    <MESSAGE value="add test/switch_save.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test/switch_save.py" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/url_error.py" />
     <entry file="file://$PROJECT_DIR$/class_fibs.py" />
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/18" />
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/Resources">
@@ -821,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_test/DBcm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_test/templates/DBcm_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -839,16 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,12 +923,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask_test/DBcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flask_test/vsearch4web2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="540">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_test/quick_session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
