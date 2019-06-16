@@ -11,11 +11,16 @@ def process_line(line):
     process_line = ''
     words = line.split()
     for word in words:
-        if word in placeholders:
-            answer = input('enter a ' + word + ': ')
-            process_line = process_line + answer + ' '
+        stripped = word.strip('.,;?!')
+        if stripped in placeholders:
+            answer = input('enter a ' + stripped + ': ')
+            process_line = process_line + answer
+            if word[-1] in '.,;?!':
+                process_line = process_line + word[-1] + ''
+            else:
+                process_line = process_line + ' '
         else:
-            process_line = process_line +word + ' '
+            process_line = process_line + word + ' '
 
     return process_line + '\n'
 
