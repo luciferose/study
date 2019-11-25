@@ -17,6 +17,7 @@ def switch_reboot(host):
     tn.read_until(b'This command will reboot the device. Continue? [Y/N]:')
     tn.write(b'y\n')
     time.sleep(5)
+    msg = tn.read_very_eager()
     print(msg.decode('utf-8'))
 
 
