@@ -17,7 +17,8 @@ def switch_reboot(host):
     tn.read_until(b'Warning: System will reboot! Continue ? [y/n]:')
     tn.write(b'y\n')
     time.sleep(5)
-    #print(msg.decode('utf-8'))
+    msg = tn.read_very_eager()
+    print(msg.decode('utf-8'))
 
 
 if __name__=='__main__':
