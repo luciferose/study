@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/reboot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/reboot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weiyi/ftp.py" beforeDir="false" afterPath="$PROJECT_DIR$/weiyi/ftp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reboot_ac">
+  <component name="RunManager" selected="Python.ftp">
     <configuration name="chenfa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,9 +279,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reboot_ac" />
-        <item itemvalue="Python.save" />
         <item itemvalue="Python.ftp" />
+        <item itemvalue="Python.save" />
+        <item itemvalue="Python.reboot_ac" />
         <item itemvalue="Python.chenfa" />
         <item itemvalue="Python.ysf" />
       </list>
@@ -488,6 +488,10 @@
       <workItem from="1572431965938" duration="340000" />
       <workItem from="1573450361897" duration="18000" />
       <workItem from="1573451140381" duration="9000" />
+      <workItem from="1574674047282" duration="20000" />
+      <workItem from="1574730393929" duration="5164000" />
+      <workItem from="1574752191728" duration="73000" />
+      <workItem from="1574752456646" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="add search_for_vowels.py">
       <created>1552958597748</created>
@@ -685,7 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574671317288</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add review bug in test/reboot.py">
+      <created>1574671407299</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1574671407299</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add review bug in test/save.py">
+      <created>1574751598153</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574751598154</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +757,9 @@
     <MESSAGE value="add crazy_lib.py koch.py lib.txt race.py turtle_test.py" />
     <MESSAGE value="add" />
     <MESSAGE value="add dir weiyi" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dir weiyi" />
+    <MESSAGE value="add review bug in test/reboot.py" />
+    <MESSAGE value="add review bug in test/save.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add review bug in test/save.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Study$crazy_lib.coverage" NAME="crazy_lib Coverage Results" MODIFIED="1558404184068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -765,16 +785,16 @@
     <SUITE FILE_PATH="coverage/Study$collections_deque.coverage" NAME="collections_deque Coverage Results" MODIFIED="1568771948629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$bingocall.coverage" NAME="bingocall Coverage Results" MODIFIED="1568603774184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$conway.coverage" NAME="conway Coverage Results" MODIFIED="1565676078925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$save.coverage" NAME="save Coverage Results" MODIFIED="1574670098058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
+    <SUITE FILE_PATH="coverage/Study$save.coverage" NAME="save Coverage Results" MODIFIED="1574746857218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
     <SUITE FILE_PATH="coverage/Study$defaultdict_test.coverage" NAME="defaultdict_test Coverage Results" MODIFIED="1567667731491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$StrKeyDict0_test.coverage" NAME="StrKeyDict0_test Coverage Results" MODIFIED="1567992722592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$dict_setdefault_test.coverage" NAME="dict_setdefault_test Coverage Results" MODIFIED="1567649290164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$simple_webapp.coverage" NAME="simple_webapp Coverage Results" MODIFIED="1555309672642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$ftp.coverage" NAME="ftp Coverage Results" MODIFIED="1574669369336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
+    <SUITE FILE_PATH="coverage/Study$ftp.coverage" NAME="ftp Coverage Results" MODIFIED="1574752251221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
     <SUITE FILE_PATH="coverage/Study$DBcm.coverage" NAME="DBcm Coverage Results" MODIFIED="1555394767105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
     <SUITE FILE_PATH="coverage/Study$koch.coverage" NAME="koch Coverage Results" MODIFIED="1565676256424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$dog_age.coverage" NAME="dog_age Coverage Results" MODIFIED="1556951800368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$reboot_ac.coverage" NAME="reboot_ac Coverage Results" MODIFIED="1574671083219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
+    <SUITE FILE_PATH="coverage/Study$reboot_ac.coverage" NAME="reboot_ac Coverage Results" MODIFIED="1574739270378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
     <SUITE FILE_PATH="coverage/Study$race.coverage" NAME="race Coverage Results" MODIFIED="1557826157075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$chenfa.coverage" NAME="chenfa Coverage Results" MODIFIED="1574668607574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$winer.coverage" NAME="winer Coverage Results" MODIFIED="1557282077485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
