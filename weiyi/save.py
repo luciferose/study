@@ -16,14 +16,16 @@ def switch_save(host):
     time.sleep(1)
     tn.read_until(b'Are you sure to continue?[Y/N]')
     tn.write(b'y\n')
-    time.sleep(30)
+    time.sleep(10)
     msg=tn.read_very_eager()
     print(msg.decode('utf-8'))
 
 
 if __name__=='__main__':
-    Host=['192.168.180.1']
+    Host=['115.236.165.162','115.238.87.90','183.129.186.246','192.168.180.1','192.168.2.1','192.168.50.1']
     for host in Host:
         print(host+':'+'\n')
         switch_save(host)
         print('*'*50)
+
+#['115.236.165.162','115.238.87.90','183.129.186.246','192.168.180.1','192.168.2.1','192.168.50.1','192.168.188.1','192.168.10.2','192.168.111.1']
