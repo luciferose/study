@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/Hash problem/Word_pattern_matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/Hash problem/sum_2num.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked_list1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked_list2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked_list_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked_list_add2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list_add2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked_list_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list_del.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge_ordered_arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/List dual-point problem/Merge_ordered_arrays.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,8 +168,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.turtle_test">
-    <configuration name="Linked_list_add2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Word_pattern_matching">
+    <configuration name="Word_pattern_matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,34 +177,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Hash problem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list_add2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Linked_list_del" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/List dual-point problem/Linked_list_del.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Hash problem/Word_pattern_matching.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,6 +235,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sum_2num" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Hash problem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Hash problem/sum_2num.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="turtle_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Word_pattern_matching" />
+        <item itemvalue="Python.sum_2num" />
         <item itemvalue="Python.turtle_test" />
         <item itemvalue="Python.race" />
         <item itemvalue="Python.model" />
-        <item itemvalue="Python.Linked_list_del" />
-        <item itemvalue="Python.Linked_list_add2" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +500,13 @@
       <workItem from="1575250161034" duration="5919000" />
       <workItem from="1575359264849" duration="8486000" />
       <workItem from="1575420301839" duration="13310000" />
-      <workItem from="1575510503730" duration="7032000" />
+      <workItem from="1575510503730" duration="10680000" />
+      <workItem from="1575532080444" duration="2244000" />
+      <workItem from="1575595610777" duration="6921000" />
+      <workItem from="1575972085779" duration="3000" />
+      <workItem from="1575972775682" duration="5000" />
+      <workItem from="1576136238953" duration="89000" />
+      <workItem from="1577779013246" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="add search_for_vowels.py">
       <created>1552958597748</created>
@@ -744,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575526784394</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="mv Linked_list* to List dual-point problem">
+      <created>1575527483469</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1575527483469</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +788,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add search_for_vowels.py" />
     <MESSAGE value="add hello_flask.py" />
     <MESSAGE value="add *.html" />
     <MESSAGE value="add vsearch4web.py" />
@@ -804,7 +812,8 @@
     <MESSAGE value="add Binary_search.py Linked_list1.py Linked_list2.py Merge_ordered_arrys.py" />
     <MESSAGE value="add  Linked_list_add.py Linked_list_add2.py" />
     <MESSAGE value="add  Linked_list_del.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  Linked_list_del.py" />
+    <MESSAGE value="mv Linked_list* to List dual-point problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="mv Linked_list* to List dual-point problem" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Study$crazy_lib.coverage" NAME="crazy_lib Coverage Results" MODIFIED="1558404184068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -816,6 +825,7 @@
     <SUITE FILE_PATH="coverage/Study$array_test.coverage" NAME="array_test Coverage Results" MODIFIED="1567496647434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1557039294474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
     <SUITE FILE_PATH="coverage/Study$Linked_list_del.coverage" NAME="Linked_list_del Coverage Results" MODIFIED="1575526605650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$sum_2num.coverage" NAME="sum_2num Coverage Results" MODIFIED="1575597126510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Hash problem" />
     <SUITE FILE_PATH="coverage/Study$vsearch4web2err.coverage" NAME="vsearch4web2err Coverage Results" MODIFIED="1555395897584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
     <SUITE FILE_PATH="coverage/Study$card.coverage" NAME="card Coverage Results" MODIFIED="1565679407689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$heapq_test.coverage" NAME="heapq_test Coverage Results" MODIFIED="1560995726698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -827,6 +837,7 @@
     <SUITE FILE_PATH="coverage/Study$Binary_search.coverage" NAME="Binary_search Coverage Results" MODIFIED="1575421135864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$csv_tr.coverage" NAME="csv_tr Coverage Results" MODIFIED="1556695762032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$turtle_test.coverage" NAME="turtle_test Coverage Results" MODIFIED="1575527247014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$Word_pattern_matching.coverage" NAME="Word_pattern_matching Coverage Results" MODIFIED="1577779021685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Hash problem" />
     <SUITE FILE_PATH="coverage/Study$vsearch4web2.coverage" NAME="vsearch4web2 Coverage Results" MODIFIED="1555394628718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
     <SUITE FILE_PATH="coverage/Study$vector.coverage" NAME="vector Coverage Results" MODIFIED="1565683651177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$ysf.coverage" NAME="ysf Coverage Results" MODIFIED="1572429132833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
