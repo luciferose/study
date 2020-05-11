@@ -12,6 +12,6 @@ def fab(n):
         n-=1
     return a3
 
-result=fab(20)
+result=fab(30)
 if result != -1:
     print(result)

@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/Hash problem/Word_pattern_matching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/Hash problem/sum_2num.py" afterDir="false" />
+    <list default="true" id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/countlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2/countlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/fab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2/fab1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/fab2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2/fab2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weiyi/save.py" beforeDir="false" afterPath="$PROJECT_DIR$/weiyi/save.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list id="061b876f-4708-47d7-95f3-3d868ac01f0b" name="add sum_2num.py  word_pattern_matching.py" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama-0.4.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama-0.4.3.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama-0.4.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama-0.4.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama-0.4.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama-0.4.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama/ansitowin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama/initialise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/colorama/winterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors-1.2.7.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors-1.2.7.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors-1.2.7.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors-1.2.7.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors-1.2.7.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors-1.2.7.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pretty_errors/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/floats.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,9 +139,6 @@
     <SUITE FILE_PATH="coverage/Study$entry3.coverage" NAME="entry3 Coverage Results" MODIFIED="1545641274961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$youdaoapi.coverage" NAME="youdaoapi Coverage Results" MODIFIED="1548138445498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Study" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -125,8 +164,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -156,20 +201,8 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.Word_pattern_matching">
-    <configuration name="Word_pattern_matching" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.countlist">
+    <configuration name="countlist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,12 +210,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Hash problem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Hash problem/Word_pattern_matching.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/countlist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +224,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fab1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/fab1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fab2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/fab2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random_username" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,7 +281,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random_username.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +290,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="race" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="save" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,56 +298,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weiyi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/race.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sum_2num" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Hash problem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Hash problem/sum_2num.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="turtle_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtle_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weiyi/save.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Word_pattern_matching" />
-        <item itemvalue="Python.sum_2num" />
-        <item itemvalue="Python.turtle_test" />
-        <item itemvalue="Python.race" />
-        <item itemvalue="Python.model" />
+        <item itemvalue="Python.countlist" />
+        <item itemvalue="Python.fab2" />
+        <item itemvalue="Python.fab1" />
+        <item itemvalue="Python.save" />
+        <item itemvalue="Python.random_username" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +328,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="961eb53b-37c5-4e8e-a292-17e05cedec52" name="Default Changelist" comment="" />
+      <changelist id="061b876f-4708-47d7-95f3-3d868ac01f0b" name="add sum_2num.py  word_pattern_matching.py" comment="" />
       <created>1544669454799</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -506,7 +540,41 @@
       <workItem from="1575972085779" duration="3000" />
       <workItem from="1575972775682" duration="5000" />
       <workItem from="1576136238953" duration="89000" />
-      <workItem from="1577779013246" duration="13000" />
+      <workItem from="1577779013246" duration="455000" />
+      <workItem from="1578039830911" duration="198000" />
+      <workItem from="1578040208520" duration="119000" />
+      <workItem from="1578463114205" duration="344000" />
+      <workItem from="1579080695547" duration="19000" />
+      <workItem from="1579080839132" duration="1232000" />
+      <workItem from="1579414205110" duration="888000" />
+      <workItem from="1583995682174" duration="627000" />
+      <workItem from="1583996472331" duration="498000" />
+      <workItem from="1583999943010" duration="3201000" />
+      <workItem from="1584957737152" duration="529000" />
+      <workItem from="1584958290862" duration="37000" />
+      <workItem from="1584958330762" duration="2133000" />
+      <workItem from="1585113017221" duration="167000" />
+      <workItem from="1586313760667" duration="2395000" />
+      <workItem from="1587095289516" duration="1042000" />
+      <workItem from="1587518642512" duration="3687000" />
+      <workItem from="1588037166609" duration="628000" />
+      <workItem from="1588038013975" duration="157000" />
+      <workItem from="1588038192559" duration="302000" />
+      <workItem from="1588038628386" duration="117000" />
+      <workItem from="1588038753798" duration="111000" />
+      <workItem from="1588038892106" duration="8000" />
+      <workItem from="1588038917312" duration="208000" />
+      <workItem from="1588039214301" duration="111000" />
+      <workItem from="1588039335079" duration="318000" />
+      <workItem from="1588039801791" duration="295000" />
+      <workItem from="1588040179082" duration="381000" />
+      <workItem from="1588040675510" duration="306000" />
+      <workItem from="1588041040359" duration="108000" />
+      <workItem from="1588219100701" duration="552000" />
+      <workItem from="1588224142166" duration="296000" />
+      <workItem from="1588552323121" duration="12000" />
+      <workItem from="1588583516066" duration="71000" />
+      <workItem from="1588737318749" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="add search_for_vowels.py">
       <created>1552958597748</created>
@@ -753,22 +821,71 @@
       <option name="project" value="LOCAL" />
       <updated>1575527483469</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add sum_2num.py  word_pattern_matching.py">
+      <created>1577779064784</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1577779064784</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add sum_2num.py  word_pattern_matching.py">
+      <created>1587095426658</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587095426658</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add random_username.py">
+      <created>1587095586237</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1587095586237</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/lucifer/Study/venv" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -785,11 +902,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add hello_flask.py" />
-    <MESSAGE value="add *.html" />
     <MESSAGE value="add vsearch4web.py" />
     <MESSAGE value="add vsearch.log" />
     <MESSAGE value="add viewlog.html" />
@@ -813,54 +929,122 @@
     <MESSAGE value="add  Linked_list_add.py Linked_list_add2.py" />
     <MESSAGE value="add  Linked_list_del.py" />
     <MESSAGE value="mv Linked_list* to List dual-point problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="mv Linked_list* to List dual-point problem" />
+    <MESSAGE value="add sum_2num.py  word_pattern_matching.py" />
+    <MESSAGE value="add random_username.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add random_username.py" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4488" y="320" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588219129734">
+      <screen x="3840" y="23" width="1920" height="1057" />
+    </state>
+    <state x="648" y="354" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1584958015971" />
+    <state x="4488" y="320" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@3840.23.1920.1057" timestamp="1588219129734" />
+    <state x="2491" y="154" key="CommitChangelistDialog2" timestamp="1587095584238">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2491" y="154" key="CommitChangelistDialog2/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1587095584238" />
+    <state width="947" height="280" key="GridCell.Tab.0.bottom" timestamp="1588758860854">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@0.23.1920.1177" timestamp="1584007290517" />
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1584959264691" />
+    <state width="947" height="280" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1177/1920.1103.1920.1057@0.23.1920.1177" timestamp="1588758860854" />
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@0.23.1920.1177" timestamp="1584963170641" />
+    <state width="950" height="259" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1586322506317" />
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom/3840.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@1920.23.1920.1057" timestamp="1587523463162" />
+    <state width="947" height="280" key="GridCell.Tab.0.center" timestamp="1588758860854">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@0.23.1920.1177" timestamp="1584007290515" />
+    <state width="1878" height="260" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1584959264691" />
+    <state width="947" height="280" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1177/1920.1103.1920.1057@0.23.1920.1177" timestamp="1588758860854" />
+    <state width="1878" height="260" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@0.23.1920.1177" timestamp="1584963170641" />
+    <state width="950" height="259" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1586322506317" />
+    <state width="1878" height="259" key="GridCell.Tab.0.center/3840.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@1920.23.1920.1057" timestamp="1587523463161" />
+    <state width="947" height="280" key="GridCell.Tab.0.left" timestamp="1588758860853">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@0.23.1920.1177" timestamp="1584007290514" />
+    <state width="1878" height="260" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1584959264690" />
+    <state width="947" height="280" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1177/1920.1103.1920.1057@0.23.1920.1177" timestamp="1588758860853" />
+    <state width="1878" height="260" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@0.23.1920.1177" timestamp="1584963170640" />
+    <state width="950" height="259" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1586322506316" />
+    <state width="1878" height="259" key="GridCell.Tab.0.left/3840.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@1920.23.1920.1057" timestamp="1587523463161" />
+    <state width="947" height="280" key="GridCell.Tab.0.right" timestamp="1588758860854">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="260" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@0.23.1920.1177" timestamp="1584007290516" />
+    <state width="1878" height="260" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1584959264691" />
+    <state width="947" height="280" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1177/1920.1103.1920.1057@0.23.1920.1177" timestamp="1588758860854" />
+    <state width="1878" height="260" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@0.23.1920.1177" timestamp="1584963170641" />
+    <state width="950" height="259" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1586322506317" />
+    <state width="1878" height="259" key="GridCell.Tab.0.right/3840.23.1920.1057/1920.23.1920.1057/0.23.1920.1177@1920.23.1920.1057" timestamp="1587523463162" />
+    <state x="2734" y="474" key="VCS.ChangelistChooser" timestamp="1587095528046">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2734" y="474" key="VCS.ChangelistChooser/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1587095528046" />
+    <state x="2480" y="291" key="Vcs.Push.Dialog.v2" timestamp="1587095593223">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2480" y="291" key="Vcs.Push.Dialog.v2/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1587095593223" />
+    <state x="2677" y="350" key="git4idea.merge.GitMergeDialog" timestamp="1587095504771">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2677" y="350" key="git4idea.merge.GitMergeDialog/1920.23.1920.1057/0.23.1920.1177/3840.23.1920.1057@1920.23.1920.1057" timestamp="1587095504771" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Study$crazy_lib.coverage" NAME="crazy_lib Coverage Results" MODIFIED="1558404184068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$model.coverage" NAME="model Coverage Results" MODIFIED="1575527185771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$test.coverage" NAME="test Coverage Results" MODIFIED="1557986242537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$hello_flask.coverage" NAME="hello_flask Coverage Results" MODIFIED="1556280043985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
-    <SUITE FILE_PATH="coverage/Study$bisect_test.coverage" NAME="bisect_test Coverage Results" MODIFIED="1567493876922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$checker.coverage" NAME="checker Coverage Results" MODIFIED="1555308597908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$array_test.coverage" NAME="array_test Coverage Results" MODIFIED="1567496647434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1557039294474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
-    <SUITE FILE_PATH="coverage/Study$Linked_list_del.coverage" NAME="Linked_list_del Coverage Results" MODIFIED="1575526605650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$sum_2num.coverage" NAME="sum_2num Coverage Results" MODIFIED="1575597126510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Hash problem" />
-    <SUITE FILE_PATH="coverage/Study$vsearch4web2err.coverage" NAME="vsearch4web2err Coverage Results" MODIFIED="1555395897584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
-    <SUITE FILE_PATH="coverage/Study$card.coverage" NAME="card Coverage Results" MODIFIED="1565679407689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$heapq_test.coverage" NAME="heapq_test Coverage Results" MODIFIED="1560995726698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$deque.coverage" NAME="deque Coverage Results" MODIFIED="1560846404985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$Linked_list_add2.coverage" NAME="Linked_list_add2 Coverage Results" MODIFIED="1575511224810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$Merge_ordered_arrays.coverage" NAME="Merge_ordered_arrays Coverage Results" MODIFIED="1575275180847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$Linked_list_add.coverage" NAME="Linked_list_add Coverage Results" MODIFIED="1575445458798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$vsearch4web.coverage" NAME="vsearch4web Coverage Results" MODIFIED="1555394571450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
-    <SUITE FILE_PATH="coverage/Study$Binary_search.coverage" NAME="Binary_search Coverage Results" MODIFIED="1575421135864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$csv_tr.coverage" NAME="csv_tr Coverage Results" MODIFIED="1556695762032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$turtle_test.coverage" NAME="turtle_test Coverage Results" MODIFIED="1575527247014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$Word_pattern_matching.coverage" NAME="Word_pattern_matching Coverage Results" MODIFIED="1577779021685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Hash problem" />
-    <SUITE FILE_PATH="coverage/Study$vsearch4web2.coverage" NAME="vsearch4web2 Coverage Results" MODIFIED="1555394628718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
-    <SUITE FILE_PATH="coverage/Study$vector.coverage" NAME="vector Coverage Results" MODIFIED="1565683651177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$ysf.coverage" NAME="ysf Coverage Results" MODIFIED="1572429132833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$Linked_list2.coverage" NAME="Linked_list2 Coverage Results" MODIFIED="1575445962400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$analyze.coverage" NAME="analyze Coverage Results" MODIFIED="1557800738730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$translation.coverage" NAME="translation Coverage Results" MODIFIED="1559525293423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$collections_deque.coverage" NAME="collections_deque Coverage Results" MODIFIED="1568771948629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$bingocall.coverage" NAME="bingocall Coverage Results" MODIFIED="1568603774184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$conway.coverage" NAME="conway Coverage Results" MODIFIED="1565676078925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$save.coverage" NAME="save Coverage Results" MODIFIED="1574746857218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
-    <SUITE FILE_PATH="coverage/Study$defaultdict_test.coverage" NAME="defaultdict_test Coverage Results" MODIFIED="1567667731491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$StrKeyDict0_test.coverage" NAME="StrKeyDict0_test Coverage Results" MODIFIED="1567992722592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$dict_setdefault_test.coverage" NAME="dict_setdefault_test Coverage Results" MODIFIED="1567649290164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$simple_webapp.coverage" NAME="simple_webapp Coverage Results" MODIFIED="1555309672642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$ftp.coverage" NAME="ftp Coverage Results" MODIFIED="1574752251221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
-    <SUITE FILE_PATH="coverage/Study$DBcm.coverage" NAME="DBcm Coverage Results" MODIFIED="1555394767105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
-    <SUITE FILE_PATH="coverage/Study$koch.coverage" NAME="koch Coverage Results" MODIFIED="1565676256424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$dog_age.coverage" NAME="dog_age Coverage Results" MODIFIED="1556951800368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$reboot_ac.coverage" NAME="reboot_ac Coverage Results" MODIFIED="1574739270378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
     <SUITE FILE_PATH="coverage/Study$Linked_list1.coverage" NAME="Linked_list1 Coverage Results" MODIFIED="1575425784504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$race.coverage" NAME="race Coverage Results" MODIFIED="1575527217413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Study$chenfa.coverage" NAME="chenfa Coverage Results" MODIFIED="1574668607574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$vector.coverage" NAME="vector Coverage Results" MODIFIED="1565683651177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$model.coverage" NAME="model Coverage Results" MODIFIED="1575527185771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$vsearch4web2err.coverage" NAME="vsearch4web2err Coverage Results" MODIFIED="1555395897584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
+    <SUITE FILE_PATH="coverage/Study$csv_tr.coverage" NAME="csv_tr Coverage Results" MODIFIED="1556695762032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$save.coverage" NAME="save Coverage Results" MODIFIED="1588758716434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
+    <SUITE FILE_PATH="coverage/Study$random_username.coverage" NAME="random_username Coverage Results" MODIFIED="1587519105891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$deque.coverage" NAME="deque Coverage Results" MODIFIED="1560846404985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$sum_2num.coverage" NAME="sum_2num Coverage Results" MODIFIED="1575597126510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Hash problem" />
     <SUITE FILE_PATH="coverage/Study$winer.coverage" NAME="winer Coverage Results" MODIFIED="1557282077485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$fab2.coverage" NAME="fab2 Coverage Results" MODIFIED="1588758821632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/Study$vsearch4web2.coverage" NAME="vsearch4web2 Coverage Results" MODIFIED="1555394628718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
+    <SUITE FILE_PATH="coverage/Study$crazy_lib.coverage" NAME="crazy_lib Coverage Results" MODIFIED="1558404184068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$dict_setdefault_test.coverage" NAME="dict_setdefault_test Coverage Results" MODIFIED="1584958427419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$countlist.coverage" NAME="countlist Coverage Results" MODIFIED="1588758838827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/Study$collections_deque.coverage" NAME="collections_deque Coverage Results" MODIFIED="1568771948629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$analyze.coverage" NAME="analyze Coverage Results" MODIFIED="1584958420271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$fab1.coverage" NAME="fab1 Coverage Results" MODIFIED="1588758782865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/Study$ftp.coverage" NAME="ftp Coverage Results" MODIFIED="1574752251221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
+    <SUITE FILE_PATH="coverage/Study$Linked_list_del.coverage" NAME="Linked_list_del Coverage Results" MODIFIED="1575526605650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$ysf.coverage" NAME="ysf Coverage Results" MODIFIED="1572429132833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$StrKeyDict0_test.coverage" NAME="StrKeyDict0_test Coverage Results" MODIFIED="1567992722592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$heapq_test.coverage" NAME="heapq_test Coverage Results" MODIFIED="1584958361337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$bisect_test.coverage" NAME="bisect_test Coverage Results" MODIFIED="1584958464483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$hello_flask.coverage" NAME="hello_flask Coverage Results" MODIFIED="1556280043985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
+    <SUITE FILE_PATH="coverage/Study$bingocall.coverage" NAME="bingocall Coverage Results" MODIFIED="1568603774184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$DBcm.coverage" NAME="DBcm Coverage Results" MODIFIED="1555394767105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
+    <SUITE FILE_PATH="coverage/Study$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1557039294474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+    <SUITE FILE_PATH="coverage/Study$translation.coverage" NAME="translation Coverage Results" MODIFIED="1583999334816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$defaultdict_test.coverage" NAME="defaultdict_test Coverage Results" MODIFIED="1567667731491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$turtle_test.coverage" NAME="turtle_test Coverage Results" MODIFIED="1584958443867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$conway.coverage" NAME="conway Coverage Results" MODIFIED="1584959264682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$race.coverage" NAME="race Coverage Results" MODIFIED="1575527217413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$Binary_search.coverage" NAME="Binary_search Coverage Results" MODIFIED="1584958457571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$chenfa.coverage" NAME="chenfa Coverage Results" MODIFIED="1574668607574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$Linked_list_add.coverage" NAME="Linked_list_add Coverage Results" MODIFIED="1575445458798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$koch.coverage" NAME="koch Coverage Results" MODIFIED="1565676256424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$test.coverage" NAME="test Coverage Results" MODIFIED="1557986242537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$vsearch4web.coverage" NAME="vsearch4web Coverage Results" MODIFIED="1555394571450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_test" />
+    <SUITE FILE_PATH="coverage/Study$reboot_ac.coverage" NAME="reboot_ac Coverage Results" MODIFIED="1574739270378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weiyi" />
+    <SUITE FILE_PATH="coverage/Study$uername.coverage" NAME="uername Coverage Results" MODIFIED="1586317396012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$array_test.coverage" NAME="array_test Coverage Results" MODIFIED="1583999082735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$card.coverage" NAME="card Coverage Results" MODIFIED="1565679407689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$checker.coverage" NAME="checker Coverage Results" MODIFIED="1584958350625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$dog_age.coverage" NAME="dog_age Coverage Results" MODIFIED="1556951800368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$items.coverage" NAME="items Coverage Results" MODIFIED="1583999165092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial/tutorial" />
+    <SUITE FILE_PATH="coverage/Study$Word_pattern_matching.coverage" NAME="Word_pattern_matching Coverage Results" MODIFIED="1577779021685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Hash problem" />
+    <SUITE FILE_PATH="coverage/Study$Linked_list_add2.coverage" NAME="Linked_list_add2 Coverage Results" MODIFIED="1575511224810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$Linked_list2.coverage" NAME="Linked_list2 Coverage Results" MODIFIED="1575445962400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$dmoz_spider.coverage" NAME="dmoz_spider Coverage Results" MODIFIED="1583999204803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial/tutorial/spiders" />
+    <SUITE FILE_PATH="coverage/Study$simple_webapp.coverage" NAME="simple_webapp Coverage Results" MODIFIED="1555309672642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Study$Merge_ordered_arrays.coverage" NAME="Merge_ordered_arrays Coverage Results" MODIFIED="1575275180847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Study$iss.coverage" NAME="iss Coverage Results" MODIFIED="1560730371768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iss" />
   </component>
 </project>

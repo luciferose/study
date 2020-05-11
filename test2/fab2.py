@@ -7,6 +7,6 @@ def fab(n):
     else:
         return fab(n-1)+fab(n-2)
 
-result=fab(20)
+result=fab(30)
 if result != -1:
     print(result)

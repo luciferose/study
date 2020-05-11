@@ -1,7 +1,7 @@
 class CountList:
     def __init__(self,*args):
         self.values=[x for x in args]
-        self.count=
+        self.count=[]
 
     def __len__(self):
         return len(self.values)
