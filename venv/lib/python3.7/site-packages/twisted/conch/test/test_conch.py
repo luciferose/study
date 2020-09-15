@@ -8,38 +8,22 @@ from itertools import count
 
 from zope.interface import implementer
 from twisted.python.reflect import requireModule
-
-cryptography = requireModule("cryptography")
-
 from twisted.conch.error import ConchError
-if cryptography:
-    from twisted.conch.avatar import ConchUser
-    from twisted.conch.ssh.session import ISession, SSHSession, wrapProtocol
-else:
-    from twisted.conch.interfaces import ISession
-    class ConchUser: pass
-
 from twisted.cred import portal
 from twisted.internet import reactor, defer, protocol
 from twisted.internet.error import ProcessExitedAlready
 from twisted.internet.task import LoopingCall
 from twisted.internet.utils import getProcessValue
 from twisted.python import filepath, log, runtime
-from twisted.python.compat import unicode
+from twisted.python.compat import unicode, _PYPY
 from twisted.trial import unittest
-
-try:
-    from twisted.conch.scripts.conch import SSHSession as StdioInteractingSession
-except ImportError as e:
-    StdioInteractingSession = None
-    _reason = str(e)
-    del e
-
 from twisted.conch.test.test_ssh import ConchTestRealm
 from twisted.python.procutils import which
 
 from twisted.conch.test.keydata import publicRSA_openssh, privateRSA_openssh
 from twisted.conch.test.keydata import publicDSA_openssh, privateDSA_openssh
+from twisted.python.filepath import FilePath
+from twisted.trial.unittest import SkipTest
 
 try:
     from twisted.conch.test.test_ssh import ConchTestServerFactory, \
@@ -48,13 +32,28 @@ except ImportError:
     pass
 
 try:
-    import cryptography
-except ImportError:
-    cryptography = None
-try:
     import pyasn1
 except ImportError:
     pyasn1 = None
+
+cryptography = requireModule("cryptography")
+if cryptography:
+    from twisted.conch.avatar import ConchUser
+    from twisted.conch.ssh.session import ISession, SSHSession, wrapProtocol
+else:
+    from twisted.conch.interfaces import ISession
+
+    class ConchUser:
+        pass
+try:
+    from twisted.conch.scripts.conch import (
+        SSHSession as StdioInteractingSession
+    )
+except ImportError as e:
+    StdioInteractingSession = None
+    _reason = str(e)
+    del e
+
 
 
 def _has_ipv6():
@@ -148,6 +147,7 @@ class ConchTestOpenSSHProcess(protocol.ProcessProtocol):
 
     deferred = None
     buf = b''
+    problems = b''
 
     def _getDeferred(self):
         d, self.deferred = self.deferred, None
@@ -158,6 +158,10 @@ class ConchTestOpenSSHProcess(protocol.ProcessProtocol):
         self.buf += data
 
 
+    def errReceived(self, data):
+        self.problems += data
+
+
     def processEnded(self, reason):
         """
         Called when the process has ended.
@@ -166,8 +170,13 @@ class ConchTestOpenSSHProcess(protocol.ProcessProtocol):
         """
         if reason.value.exitCode != 0:
             self._getDeferred().errback(
-                ConchError("exit code was not 0: {}".format(
-                                 reason.value.exitCode)))
+                ConchError(
+                    "exit code was not 0: {} ({})".format(
+                        reason.value.exitCode,
+                        self.problems.decode("charmap"),
+                    )
+                )
+            )
         else:
             buf = self.buf.replace(b'\r\n', b'\n')
             self._getDeferred().callback(buf)
@@ -323,6 +332,13 @@ class ConchServerSetupMixin:
     if not pyasn1:
         skip = "Cannot run without PyASN1"
 
+    # FIXME: https://twistedmatrix.com/trac/ticket/8506
+
+    # This should be un-skipped on Travis after the ticket is fixed.  For now
+    # is enabled so that we can continue with fixing other stuff using Travis.
+    if _PYPY:
+        skip = 'PyPy known_host not working yet on Travis.'
+
     realmFactory = staticmethod(lambda: ConchTestRealm(b'testuser'))
 
     def _createFiles(self):
@@ -330,17 +346,24 @@ class ConchServerSetupMixin:
                   'kh_test']:
             if os.path.exists(f):
                 os.remove(f)
-        with open('rsa_test','wb') as f:
+        with open('rsa_test', 'wb') as f:
             f.write(privateRSA_openssh)
-        with open('rsa_test.pub','wb') as f:
+        with open('rsa_test.pub', 'wb') as f:
             f.write(publicRSA_openssh)
-        with open('dsa_test.pub','wb') as f:
+        with open('dsa_test.pub', 'wb') as f:
             f.write(publicDSA_openssh)
-        with open('dsa_test','wb') as f:
+        with open('dsa_test', 'wb') as f:
             f.write(privateDSA_openssh)
-        os.chmod('dsa_test', 33152)
-        os.chmod('rsa_test', 33152)
-        with open('kh_test','wb') as f:
+        os.chmod('dsa_test', 0o600)
+        os.chmod('rsa_test', 0o600)
+        permissions = FilePath('dsa_test').getPermissions()
+        if permissions.group.read or permissions.other.read:
+            raise SkipTest(
+                "private key readable by others despite chmod;"
+                " possible windows permission issue?"
+                " see https://tm.tl/9767"
+            )
+        with open('kh_test', 'wb') as f:
             f.write(b'127.0.0.1 '+publicRSA_openssh)
 
 

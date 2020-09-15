@@ -1595,7 +1595,7 @@ def inlineCallbacks(f):
     You can cancel the L{Deferred} returned from your L{inlineCallbacks}
     generator before it is fired by your generator completing (either by
     reaching its end, a C{return} statement, or by calling L{returnValue}).
-    A C{CancelledError} will be raised from the C{yielde}ed L{Deferred} that
+    A C{CancelledError} will be raised from the C{yield}ed L{Deferred} that
     has been cancelled if that C{Deferred} does not otherwise suppress it.
     """
     @wraps(f)
@@ -1656,6 +1656,20 @@ class _ConcurrencyPrimitive(object):
         d = self.acquire()
         d.addCallback(execute)
         return d
+
+
+    def __aenter__(self):
+        """
+        We can be used as an asynchronous context manager.
+        """
+        return self.acquire()
+
+
+    def __aexit__(self, exc_type, exc_val, exc_tb):
+        self.release()
+        # We return False to indicate that we have not consumed the
+        # exception, if any.
+        return succeed(False)
 
 
 

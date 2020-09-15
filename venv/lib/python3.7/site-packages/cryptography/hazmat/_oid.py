@@ -19,11 +19,16 @@ class ObjectIdentifier(object):
         # range 0..39.  All nodes must be integers.
         for node in nodes:
             try:
-                intnodes.append(int(node, 0))
+                node_value = int(node, 10)
             except ValueError:
                 raise ValueError(
                     "Malformed OID: %s (non-integer nodes)" % (
                         self._dotted_string))
+            if node_value < 0:
+                raise ValueError(
+                    "Malformed OID: %s (negative-integer nodes)" % (
+                        self._dotted_string))
+            intnodes.append(node_value)
 
         if len(nodes) < 2:
             raise ValueError(
@@ -50,7 +55,7 @@ class ObjectIdentifier(object):
         return not self == other
 
     def __repr__(self):
-        return "<ObjectIdentifier(oid={0}, name={1})>".format(
+        return "<ObjectIdentifier(oid={}, name={})>".format(
             self.dotted_string,
             self._name
         )

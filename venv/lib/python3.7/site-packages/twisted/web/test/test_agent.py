@@ -11,14 +11,14 @@ from io import BytesIO
 
 from zope.interface.verify import verifyObject
 
-from twisted.trial.unittest import TestCase
+from twisted.trial.unittest import TestCase, SynchronousTestCase
 from twisted.web import client, error, http_headers
 from twisted.web._newclient import RequestNotSent, RequestTransmissionFailed
 from twisted.web._newclient import ResponseNeverReceived, ResponseFailed
 from twisted.web._newclient import PotentialDataLoss
 from twisted.internet import defer, task
 from twisted.python.failure import Failure
-from twisted.python.compat import cookielib, intToBytes
+from twisted.python.compat import cookielib, intToBytes, unicode
 from twisted.python.components import proxyForInterface
 from twisted.test.proto_helpers import (StringTransport, MemoryReactorClock,
                                         EventLoggingObserver)
@@ -44,12 +44,17 @@ from zope.interface.declarations import implementer
 from twisted.web.iweb import IPolicyForHTTPS
 from twisted.python.deprecate import getDeprecationWarningString
 from incremental import Version
-from twisted.web.client import BrowserLikePolicyForHTTPS
+from twisted.web.client import (BrowserLikePolicyForHTTPS,
+                                HostnameCachingHTTPSPolicy)
 from twisted.internet.test.test_endpoints import deterministicResolvingReactor
 from twisted.internet.endpoints import HostnameEndpoint
 from twisted.test.proto_helpers import AccumulatingProtocol
 from twisted.test.iosim import IOPump, FakeTransport
 from twisted.test.test_sslverify import certificatesForAuthorityAndServer
+from twisted.web.test.injectionhelpers import (
+    MethodInjectionTestsMixin,
+    URIInjectionTestsMixin,
+)
 from twisted.web.error import SchemeNotSupported
 from twisted.logger import globalLogPublisher
 
@@ -65,6 +70,16 @@ else:
     from twisted.internet._sslverify import ClientTLSOptions, IOpenSSLTrustRoot
     from twisted.internet.ssl import optionsForClientTLS
     from twisted.protocols.tls import TLSMemoryBIOProtocol, TLSMemoryBIOFactory
+
+
+    @implementer(IOpenSSLTrustRoot)
+    class CustomOpenSSLTrustRoot(object):
+        called = False
+        context = None
+
+        def _addCACertsToContext(self, context):
+            self.called = True
+            self.context = context
 
 
 
@@ -231,6 +246,25 @@ class FileBodyProducerTests(TestCase):
         complete = producer.startProducing(FileConsumer(BytesIO()))
         self._scheduled.pop(0)()
         self.failureResultOf(complete).trap(IOError)
+
+
+    def test_cancelWhileProducing(self):
+        """
+        When the L{Deferred} returned by L{FileBodyProducer.startProducing} is
+        cancelled, the input file is closed and the task is stopped.
+        """
+        expectedResult = b"hello, world"
+        readSize = 3
+        output = BytesIO()
+        consumer = FileConsumer(output)
+        inputFile = BytesIO(expectedResult)
+        producer = FileBodyProducer(inputFile, self.cooperator, readSize)
+        complete = producer.startProducing(consumer)
+        complete.cancel()
+        self.assertTrue(inputFile.closed)
+        self._scheduled.pop(0)()
+        self.assertEqual(b"", output.getvalue())
+        self.assertNoResult(complete)
 
 
     def test_stopProducing(self):
@@ -886,6 +920,7 @@ class AgentTests(TestCase, FakeReactorAndConnectMixin, AgentTestsMixin,
     """
     Tests for the new HTTP client API provided by L{Agent}.
     """
+
     def makeAgent(self):
         """
         @return: a new L{twisted.web.client.Agent} instance
@@ -976,6 +1011,15 @@ class AgentTests(TestCase, FakeReactorAndConnectMixin, AgentTestsMixin,
         agent.request(b'GET', b'http://foo/',
                       bodyProducer=bodyProducer, headers=headers)
         self.assertEqual(agent._pool.connected, True)
+
+
+    def test_nonBytesMethod(self):
+        """
+        L{Agent.request} raises L{TypeError} when the C{method} argument isn't
+        L{bytes}.
+        """
+        self.assertRaises(TypeError, self.agent.request,
+                          u'GET', b'http://foo.example/')
 
 
     def test_unsupportedScheme(self):
@@ -1307,6 +1351,48 @@ class AgentTests(TestCase, FakeReactorAndConnectMixin, AgentTestsMixin,
 
 
 
+class AgentMethodInjectionTests(
+        FakeReactorAndConnectMixin,
+        MethodInjectionTestsMixin,
+        SynchronousTestCase,
+):
+    """
+    Test L{client.Agent} against HTTP method injections.
+    """
+
+    def attemptRequestWithMaliciousMethod(self, method):
+        """
+        Attempt a request with the provided method.
+
+        @param method: see L{MethodInjectionTestsMixin}
+        """
+        agent = client.Agent(self.createReactor())
+        uri = b"http://twisted.invalid"
+        agent.request(method, uri, client.Headers(), None)
+
+
+
+class AgentURIInjectionTests(
+        FakeReactorAndConnectMixin,
+        URIInjectionTestsMixin,
+        SynchronousTestCase,
+):
+    """
+    Test L{client.Agent} against URI injections.
+    """
+
+    def attemptRequestWithMaliciousURI(self, uri):
+        """
+        Attempt a request with the provided method.
+
+        @param uri: see L{URIInjectionTestsMixin}
+        """
+        agent = client.Agent(self.createReactor())
+        method = b"GET"
+        agent.request(method, uri, client.Headers(), None)
+
+
+
 class AgentHTTPSTests(TestCase, FakeReactorAndConnectMixin,
                       IntegrationTestingMixin):
     """
@@ -1479,39 +1565,12 @@ class AgentHTTPSTests(TestCase, FakeReactorAndConnectMixin,
         L{IOpenSSLClientConnectionCreator} provider which will add certificates
         from the given trust root.
         """
-        @implementer(IOpenSSLTrustRoot)
-        class CustomOpenSSLTrustRoot(object):
-            called = False
-            context = None
-            def _addCACertsToContext(self, context):
-                self.called = True
-                self.context = context
         trustRoot = CustomOpenSSLTrustRoot()
         policy = BrowserLikePolicyForHTTPS(trustRoot=trustRoot)
         creator = policy.creatorForNetloc(b"thingy", 4321)
         self.assertTrue(trustRoot.called)
         connection = creator.clientConnectionForTLS(None)
         self.assertIs(trustRoot.context, connection.get_context())
-
-
-    def test_integrationTestIPv4Address(self):
-        """
-        L{Agent} works over IPv4 when hostname is an IPv4 address.
-        """
-        super(AgentHTTPSTests, self).test_integrationTestIPv4Address()
-    test_integrationTestIPv4Address.skip = (
-        'service_identity does not support IP address validation yet'
-    )
-
-
-    def test_integrationTestIPv6Address(self):
-        """
-        L{Agent} works over IPv6 when the hostname is an IPv6 address.
-        """
-        super(AgentHTTPSTests, self).test_integrationTestIPv6Address()
-    test_integrationTestIPv6Address.skip = (
-        'service_identity does not support IP address validation yet'
-    )
 
 
     def integrationTest(self, hostName, expectedAddress, addressType):
@@ -2491,6 +2550,15 @@ class ProxyAgentTests(TestCase, FakeReactorAndConnectMixin, AgentTestsMixin):
         self.agent._proxyEndpoint = self.StubEndpoint(oldEndpoint, self)
 
 
+    def test_nonBytesMethod(self):
+        """
+        L{ProxyAgent.request} raises L{TypeError} when the C{method} argument
+        isn't L{bytes}.
+        """
+        self.assertRaises(TypeError, self.agent.request,
+                          u'GET', b'http://foo.example/')
+
+
     def test_proxyRequest(self):
         """
         L{client.ProxyAgent} issues an HTTP request against the proxy, with the
@@ -3105,3 +3173,196 @@ class ReadBodyTests(TestCase):
 
         warnings = self.flushWarnings()
         self.assertEqual(len(warnings), 0)
+
+
+
+class HostnameCachingHTTPSPolicyTests(TestCase):
+
+    skip = skipWhenNoSSL
+
+    def test_cacheIsUsed(self):
+        """
+        Verify that the connection creator is added to the
+        policy's cache, and that it is reused on subsequent calls
+        to creatorForNetLoc.
+
+        """
+        trustRoot = CustomOpenSSLTrustRoot()
+        wrappedPolicy = BrowserLikePolicyForHTTPS(trustRoot=trustRoot)
+        policy = HostnameCachingHTTPSPolicy(wrappedPolicy)
+        creator = policy.creatorForNetloc(b"foo", 1589)
+        self.assertTrue(trustRoot.called)
+        trustRoot.called = False
+        self.assertEquals(1, len(policy._cache))
+        connection = creator.clientConnectionForTLS(None)
+        self.assertIs(trustRoot.context, connection.get_context())
+
+        policy.creatorForNetloc(b"foo", 1589)
+        self.assertFalse(trustRoot.called)
+
+
+    def test_cacheRemovesOldest(self):
+        """
+        Verify that when the cache is full, and a new entry is added,
+        the oldest entry is removed.
+        """
+        trustRoot = CustomOpenSSLTrustRoot()
+        wrappedPolicy = BrowserLikePolicyForHTTPS(trustRoot=trustRoot)
+        policy = HostnameCachingHTTPSPolicy(wrappedPolicy)
+        for i in range(0, 20):
+            hostname = u"host" + unicode(i)
+            policy.creatorForNetloc(hostname.encode("ascii"), 8675)
+
+        # Force host0, which was the first, to be the most recently used
+        host0 = u"host0"
+        policy.creatorForNetloc(host0.encode("ascii"), 309)
+        self.assertIn(host0, policy._cache)
+        self.assertEquals(20, len(policy._cache))
+
+        hostn = u"new"
+        policy.creatorForNetloc(hostn.encode("ascii"), 309)
+
+        host1 = u"host1"
+        self.assertNotIn(host1, policy._cache)
+        self.assertEquals(20, len(policy._cache))
+
+        self.assertIn(hostn, policy._cache)
+        self.assertIn(host0, policy._cache)
+
+        # Accessing an item repeatedly does not corrupt the LRU.
+        for _ in range(20):
+            policy.creatorForNetloc(host0.encode("ascii"), 8675)
+
+        hostNPlus1 = u"new1"
+
+        policy.creatorForNetloc(hostNPlus1.encode("ascii"), 800)
+
+        self.assertNotIn(u"host2", policy._cache)
+        self.assertEquals(20, len(policy._cache))
+
+        self.assertIn(hostNPlus1, policy._cache)
+        self.assertIn(hostn, policy._cache)
+        self.assertIn(host0, policy._cache)
+
+
+    def test_changeCacheSize(self):
+        """
+        Verify that changing the cache size results in a policy that
+        respects the new cache size and not the default.
+
+        """
+        trustRoot = CustomOpenSSLTrustRoot()
+        wrappedPolicy = BrowserLikePolicyForHTTPS(trustRoot=trustRoot)
+        policy = HostnameCachingHTTPSPolicy(wrappedPolicy, cacheSize=5)
+        for i in range(0, 5):
+            hostname = u"host" + unicode(i)
+            policy.creatorForNetloc(hostname.encode("ascii"), 8675)
+
+        first = u"host0"
+        self.assertIn(first, policy._cache)
+        self.assertEquals(5, len(policy._cache))
+
+        hostn = u"new"
+        policy.creatorForNetloc(hostn.encode("ascii"), 309)
+        self.assertNotIn(first, policy._cache)
+        self.assertEquals(5, len(policy._cache))
+
+        self.assertIn(hostn, policy._cache)
+
+
+
+class RequestMethodInjectionTests(
+        MethodInjectionTestsMixin,
+        SynchronousTestCase,
+):
+    """
+    Test L{client.Request} against HTTP method injections.
+    """
+
+    def attemptRequestWithMaliciousMethod(self, method):
+        """
+        Attempt a request with the provided method.
+
+        @param method: see L{MethodInjectionTestsMixin}
+        """
+        client.Request(
+            method=method,
+            uri=b"http://twisted.invalid",
+            headers=http_headers.Headers(),
+            bodyProducer=None,
+        )
+
+
+
+class RequestWriteToMethodInjectionTests(
+        MethodInjectionTestsMixin,
+        SynchronousTestCase,
+):
+    """
+    Test L{client.Request.writeTo} against HTTP method injections.
+    """
+
+    def attemptRequestWithMaliciousMethod(self, method):
+        """
+        Attempt a request with the provided method.
+
+        @param method: see L{MethodInjectionTestsMixin}
+        """
+        headers = http_headers.Headers({b"Host": [b"twisted.invalid"]})
+        req = client.Request(
+            method=b"GET",
+            uri=b"http://twisted.invalid",
+            headers=headers,
+            bodyProducer=None,
+        )
+        req.method = method
+        req.writeTo(StringTransport())
+
+
+
+class RequestURIInjectionTests(
+        URIInjectionTestsMixin,
+        SynchronousTestCase,
+):
+    """
+    Test L{client.Request} against HTTP URI injections.
+    """
+
+    def attemptRequestWithMaliciousURI(self, uri):
+        """
+        Attempt a request with the provided URI.
+
+        @param method: see L{URIInjectionTestsMixin}
+        """
+        client.Request(
+            method=b"GET",
+            uri=uri,
+            headers=http_headers.Headers(),
+            bodyProducer=None,
+        )
+
+
+
+class RequestWriteToURIInjectionTests(
+        URIInjectionTestsMixin,
+        SynchronousTestCase,
+):
+    """
+    Test L{client.Request.writeTo} against HTTP method injections.
+    """
+
+    def attemptRequestWithMaliciousURI(self, uri):
+        """
+        Attempt a request with the provided method.
+
+        @param method: see L{URIInjectionTestsMixin}
+        """
+        headers = http_headers.Headers({b"Host": [b"twisted.invalid"]})
+        req = client.Request(
+            method=b"GET",
+            uri=b"http://twisted.invalid",
+            headers=headers,
+            bodyProducer=None,
+        )
+        req.uri = uri
+        req.writeTo(StringTransport())

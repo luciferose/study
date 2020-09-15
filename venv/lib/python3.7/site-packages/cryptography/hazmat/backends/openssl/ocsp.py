@@ -10,7 +10,8 @@ from cryptography import utils, x509
 from cryptography.exceptions import UnsupportedAlgorithm
 from cryptography.hazmat.backends.openssl.decode_asn1 import (
     _CRL_ENTRY_REASON_CODE_TO_ENUM, _OCSP_BASICRESP_EXT_PARSER,
-    _OCSP_REQ_EXT_PARSER, _asn1_integer_to_int,
+    _OCSP_REQ_EXT_PARSER, _OCSP_SINGLERESP_EXT_PARSER,
+    _asn1_integer_to_int,
     _asn1_string_to_bytes, _decode_x509_name, _obj2txt,
     _parse_asn1_generalized_time,
 )
@@ -82,7 +83,7 @@ def _hash_algorithm(backend, cert_id):
         return _OIDS_TO_HASH[oid]
     except KeyError:
         raise UnsupportedAlgorithm(
-            "Signature algorithm OID: {0} not recognized".format(oid)
+            "Signature algorithm OID: {} not recognized".format(oid)
         )
 
 
@@ -125,6 +126,17 @@ class _OCSPResponse(object):
         self._backend.openssl_assert(alg != self._backend._ffi.NULL)
         oid = _obj2txt(self._backend, alg.algorithm)
         return x509.ObjectIdentifier(oid)
+
+    @property
+    @_requires_successful_response
+    def signature_hash_algorithm(self):
+        oid = self.signature_algorithm_oid
+        try:
+            return x509._SIG_OIDS_TO_HASH[oid]
+        except KeyError:
+            raise UnsupportedAlgorithm(
+                "Signature algorithm OID:{} not recognized".format(oid)
+            )
 
     @property
     @_requires_successful_response
@@ -307,6 +319,13 @@ class _OCSPResponse(object):
     @_requires_successful_response
     def extensions(self):
         return _OCSP_BASICRESP_EXT_PARSER.parse(self._backend, self._basic)
+
+    @utils.cached_property
+    @_requires_successful_response
+    def single_extensions(self):
+        return _OCSP_SINGLERESP_EXT_PARSER.parse(
+            self._backend, self._single
+        )
 
     def public_bytes(self, encoding):
         if encoding is not serialization.Encoding.DER:
